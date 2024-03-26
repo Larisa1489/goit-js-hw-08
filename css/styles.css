@@ -1,0 +1,14 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  text-decoration: none;
+  list-style: none;
+  transform: scale(1);
+}
+.gallery-item {
+  transition: transform 0.3s ease;
+}
+.gallery-item:hover {
+  transform: scale(1.1);
+}
